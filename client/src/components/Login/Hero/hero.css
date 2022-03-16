@@ -1,0 +1,64 @@
+.hero {
+    width: 100vw;
+    height: calc(100vh - 3rem);
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 2%;
+}
+
+.heroleft, .heroright {
+    width: 45%;
+    height: 95%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroright {
+    flex-flow: column wrap;
+}
+
+.playlist {
+    width: 80%;
+}
+
+.heading {
+    font-size: 3rem;
+    color: white;
+}
+
+spotify {
+    color: #1DB954;
+}
+
+.buttons {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.buttons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 60%;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 0 1rem;
+    font-size: medium;
+    background-color: white;
+}
+
+.buttons a:hover {
+    background-color: #1DB954;
+    color: white;
+}

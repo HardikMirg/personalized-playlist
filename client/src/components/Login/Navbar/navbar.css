@@ -1,0 +1,45 @@
+.navbar {
+    width: 100vw;
+    height: 3rem;
+    background-color: black;
+    display: flex;
+    position: sticky;
+}
+
+.spotify-logo {
+    width: 32px;
+}
+
+.github-logo {
+    width: 50px;
+}
+
+.navleft, .navmid, .navright {
+    width: 33.3%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 150%;
+}
+
+.navmid {
+    display: flex;
+    justify-content: center;
+}
+
+.navmid a {
+
+    text-decoration: none;
+    color: white;
+    margin: 0 1.5rem;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #1DB954;
+}
+
+.navright {
+    display: flex;
+    justify-content: right;
+}

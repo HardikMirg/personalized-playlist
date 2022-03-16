@@ -1,0 +1,9 @@
+.alert {
+    width: 100vw;
+    height: 100vh;
+}
+
+.alert p {
+    font-size: xx-large;
+    font-weight: bold;
+}
